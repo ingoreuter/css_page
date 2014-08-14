@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-10-25T14:11:05Z" product-name="css_page">
+		<header/>
+		<body>
+			
+			<trans-unit id="tx_csspage.plugin.name">
+				<source>Render body CSS code (do NOT include as content element)</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.be.tabname">
+				<source>Pagestyle</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.tab.backgroundimage">
+				<source>Background image</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundimage">
+				<source>Background image</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat">
+				<source>Background repeat</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat.items.noRepeat">
+				<source>Do not repeat background image</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat.items.repeatX">
+				<source>Repeat horizontal</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat.items.repeatY">
+				<source>Repeat vertical</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat.items.repeatXY">
+				<source>Repeat horizontal and vertical</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundattachment">
+				<source>Background attachment (behavior on scrolling)</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundattachment.items.scroll">
+				<source>Scroll along with the element</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundattachment.items.fixed">
+				<source>Fixed with regard to the viewport</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundattachment.items.local">
+				<source>Scroll along with the element's contents</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundorigin">
+				<source>Area where the background is shown</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundorigin.items.padding">
+				<source>Show on padding-box</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundorigin.items.border">
+				<source>Show on border-box</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundorigin.items.content">
+				<source>Show on content-box</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundposition">
+				<source>Background position \n\n (You can set the x and y position to "center", "top", "left", "right" and "bottom". Alternatively you can set values to percent (%) and pixel (px). The top left corner is (0|0). If only one value is provided, the other one will be taken as center / 50%.) </source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundsize">
+				<source>Background size \n\n You can use two numeric values (units: px, %, ...)  (e.g. "20px 40px") to set the width and height (secound value). If only one values is provided, the hight is set to "auto" to keep the image's aspect ratio. Alternatively you can use "auto" (devault value, if empty) to keep the image's original size. "cover" scales the backgroundimage to cover the full page. "contain" scales the background to it's largest possible size that the full image is visible. "inherit" applies the value the parent element. </source>
+			</trans-unit>
+			
+			
+			
+			<trans-unit id="tx_csspage.flex.tab.backgroundcolor">
+				<source>Background color</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundcolor">
+				<source>Background color \n\n You can use a HTML-value (like "#3399DD"), an RGB(A)-Valure (use: "rgb(10,0,90)" or "rgba(255, 0, 0, 0.25)) or an CSS-Keyword (like "red").</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundclip">
+				<source>Area where the background color is shown</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundclip.items.padding">
+				<source>Show on padding-box</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundclip.items.border">
+				<source>Show on border-box</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundclip.items.content">
+				<source>Show on content-box</source>
+			</trans-unit>
+			
+			
+			
+			<trans-unit id="tx_csspage.flex.tab.other">
+				<source>Advanced CSS configuration</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.bodyCss">
+				<source>Advanced body configuration \n\n Set more CSS properties to the body tag. Just write standart CSS code. Do NOT write "body{" and the closing "}". This is done for you ;)</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.pageCss">
+				<source>Advanced page configuration \n\n Set more CSS properties to a feely choosen element. Just write standart CSS code. Do not forget to adress the element by using selectors (like "#myElement {  font-size: 2em; }")</source>
+			</trans-unit>
+			
+			
+			
+			<trans-unit id="tx_csspage.flex.stdItems.notSet">
+				<source>[Not set / use default]</source>
+			</trans-unit>
+			<trans-unit id="tx_csspage.flex.stdItems.cssValues">
+				<source>CSS values</source>
+			</trans-unit>
+			<trans-unit id="tx_csspage.flex.stdItems.div.dynamic">
+				<source>Dynamic values</source>
+			</trans-unit>
+			<trans-unit id="tx_csspage.flex.stdItems.inherit">
+				<source>Inherit property from its parent element</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

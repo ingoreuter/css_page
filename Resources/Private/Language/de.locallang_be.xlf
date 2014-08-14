@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2013-10-25T14:11:05Z" product-name="css_page">
+		<header/>
+		<body>
+			
+			<trans-unit id="tx_csspage.plugin.name">
+				<source>Render body CSS code (do NOT include as content element)</source>
+				<target>Body-CSS ausgeben (NICHT als Inhaltselement einfügen!)</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.be.tabname">
+				<source>Pagestyle</source>
+				<target>Seitendesign</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.tab.backgroundimage">
+				<source>Background image</source>
+				<target>Hintergrundbild</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundimage">
+				<source>Background image</source>
+				<target>Hintergrundbild</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat">
+				<source>Background repeat</source>
+				<target>Wiederholung des Hintergrundbildes</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat.items.noRepeat">
+				<source>Do not repeat background image</source>
+				<target>Hintergrundbild NICHT wiederholen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat.items.repeatX">
+				<source>Repeat horizontal</source>
+				<target>Horizontal wiederholen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat.items.repeatY">
+				<source>Repeat vertical</source>
+				<target>Vertikal wiederholen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundrepeat.items.repeatXY">
+				<source>Repeat horizontal and vertical</source>
+				<target>Horizontal und vertikal wiederholen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundattachment">
+				<source>Background attachment (behavior on scrolling)</source>
+				<target>Background attachment (verhalten beim Scrollen)</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundattachment.items.scroll">
+				<source>Scroll along with the element</source>
+				<target>Mit dem Element bewegen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundattachment.items.fixed">
+				<source>Fixed with regard to the viewport</source>
+				<target>Feste Position im Browserfenster</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundattachment.items.local">
+				<source>Scroll along with the element's contents</source>
+				<target>Mit dem Inhalt des Elements bewegen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundorigin">
+				<source>Area where the background is shown</source>
+				<target>Bereich, in dem der Hintergrund dargesetllt werden soll</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundorigin.items.padding">
+				<source>Show on padding-box</source>
+				<target>In der Padding-Box darstellen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundorigin.items.border">
+				<source>Show on border-box</source>
+				<target>In der Rahmen-Box darstellen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundorigin.items.content">
+				<source>Show on content-box</source>
+				<target>In der Inhalts-Box darstellen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundposition">
+				<source>Background position \n\n (You can set the x and y position to "center", "top", "left", "right" and "bottom". Alternatively you can set values to percent (%) and pixel (px). The top left corner is (0|0). If only one value is provided, the other one will be taken as center / 50%.) </source>
+				<target>Position des Hintergrundbildes \n \n (Die X- und Y-Position durch CSS-definierte Ausdrücke wie "center", "top", "left", "right" oder "left" festgelegt werden. Alternativ kann die Definition über Prozentwerte (%) oder Pixelwerte (px) erfolgen. Die obere, linke Ecke ist bei (0|0). Wenn nur ein Wert angegeben wird, wird der fehlende auf "center" bzw. 50% gesetzt.</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundsize">
+				<source>Background size \n\n You can use two numeric values (units: px, %, ...)  (e.g. "20px 40px") to set the width and height (secound value). If only one values is provided, the hight is set to "auto" to keep the image's aspect ratio. Alternatively you can use "auto" (devault value, if empty) to keep the image's original size. "cover" scales the backgroundimage to cover the full page. "contain" scales the background to it's largest possible size that the full image is visible. "inherit" applies the value the parent element. </source>
+				<target>Größe des Hintergrundbildes \n \n Es können zwei numerische Werte (Einheinten: px, %, ...) (z.B. "20px 40px") angegenben werden, um die Breite und Höhe (zweiter Wert) zu definieren. Wenn nur ein Wert angegeben wird, wird die Höhe auf "auto" gesetzt, um das Seitenverhältnis des Bildes beizubehalten. Alternativ kann "auto" (Standardwert) genutzt werden, um die Originalgröße des Bildes beizubehalten. "cover" skaliert das Bild so, dass das gesamte Inhaltselement ausgefüllt ist. "contain" skaliert das Hintergrundbild so, dass es in maximal möglicher Größe komplett sichtbar ist. "inherit" vererbt den Wert des übergeordneten Elements.</target>
+			</trans-unit>
+			
+			
+			
+			<trans-unit id="tx_csspage.flex.tab.backgroundcolor">
+				<source>Background color</source>
+				<target>Hintergrundfarbe</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundcolor">
+				<source>Background color \n\n You can use a HTML-value (like "#3399DD"), an RGB(A)-Valure (use: "rgb(10,0,90)" or "rgba(255, 0, 0, 0.25)) or an CSS-Keyword (like "red").</source>
+				<target>Hintergundfarbe \n \n Es können HTML-Werte (z.B. "#3399DD"), ein RGB(A)-Wert (z.B. "rgb(10,0,90)" oder "rgba(255, 0 ,0 , 0.25)") oder ein CSS-Farbname (wie "red") genutzt werden</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundclip">
+				<source>Area where the background color is shown</source>
+				<target>Bereich, in dem die Hintergrundfarbe dargestellt wird</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundclip.items.padding">
+				<source>Show on padding-box</source>
+				<target>In der Padding-Box anzeigen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundclip.items.border">
+				<source>Show on border-box</source>
+				<target>In der Rahemn-Box darstellen</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.backgroundclip.items.content">
+				<source>Show on content-box</source>
+				<target>In der Inhalts-Box darstellen</target>
+			</trans-unit>
+			
+			
+			
+			<trans-unit id="tx_csspage.flex.tab.other">
+				<source>Advanced CSS configuration</source>
+				<target>Erweiterte CSS-Konfiguration</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.bodyCss">
+				<source>Advanced body configuration \n\n Set more CSS properties to the body tag. Just write standart CSS code. Do NOT write "body{" and the closing "}". This is done for you ;)</source>
+				<target>Erweiterte BODY-Konfiguration \n \n Weitere CSS-Eigenschaften für den BODY-Tag. Standart CSS-Code - ohne einführung von "body {" und Klammer am Ende "}". Diese werden automatisch erzeugt ;)</target>
+			</trans-unit>
+			
+			<trans-unit id="tx_csspage.flex.pageCss">
+				<source>Advanced page configuration \n\n Set more CSS properties to a feely choosen element. Just write standart CSS code. Do not forget to adress the element by using selectors (like "#myElement {  font-size: 2em; }")</source>
+				<target>Erweiterte Seiten-Konfiguration \n \n Definiert CSS-Eigenschaften für ein frei gewähltes Element. Normaler CSS-Code. Hier müssen selektoren (z.B. "#myElement{ font-size: 2em}") gesezt werden!</target>
+			</trans-unit>
+			
+			
+			
+			<trans-unit id="tx_csspage.flex.stdItems.notSet">
+				<source>[Not set / use default]</source>
+				<target>[Nicht definiert / Standardwert nutzen]</target>
+			</trans-unit>
+			<trans-unit id="tx_csspage.flex.stdItems.cssValues">
+				<source>CSS values</source>
+				<target>CSS-Werte</target>
+			</trans-unit>
+			<trans-unit id="tx_csspage.flex.stdItems.div.dynamic">
+				<source>Dynamic values</source>
+				<target>Dynamische Werte</target>
+			</trans-unit>
+			<trans-unit id="tx_csspage.flex.stdItems.inherit">
+				<source>Inherit property from its parent element</source>
+				<target>Vererbte Eigenschaft von übergeordnetem Element</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

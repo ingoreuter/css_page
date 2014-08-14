@@ -1,0 +1,26 @@
+plugin.tx_csspage {
+	persistence {
+		classes {
+			ingoreuter\CssPage\Domain\Model\Pages {
+				mapping {
+					tableName = pages
+					columns {
+						tx_csspage_css.mapOnProperty = cssContent
+					}
+				}
+			}
+		}
+	}
+}
+
+
+temp.layoutid = COA
+temp.layoutid {
+	10 = TEXT
+	10.data = levelfield:-1,backend_layout_next_level,slide
+	10.override.field = backend_layout
+	10.noTrimWrap = |<body id="siteLayout_|" >|
+}
+
+page.bodyTagCObject < temp.layoutid
+page.15112008 < tt_content.list.20.csspage_pi1
