@@ -50,8 +50,12 @@ class CssController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 	 * @return void
 	 */
 	public function listAction() {
+				
+		/** @var \TYPO3\CMS\Extbase\Service\FlexFormService */
+		$flexForm = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance("TYPO3\CMS\Extbase\Service\FlexFormService");
+		
 		$cssFlexform = $this->PagesRepository->findAll();
-		$cssValues = \TYPO3\CMS\Extbase\Service\FlexFormService::convertFlexFormContentToArray($cssFlexform->getCssContent());
+		$cssValues = $flexForm->convertFlexFormContentToArray($cssFlexform->getCssContent());
 		
 		$theCssString = "body { \n";		
 		foreach($cssValues['body'] as $property => $value) {
